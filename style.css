@@ -16,7 +16,6 @@ body {
     margin-bottom: 25px;
     width: 80%;
     height: 80%;
-    opacity: 0.9;
   }
   .person:hover {
     border-color: #f1f1f1;
@@ -30,11 +29,7 @@ body {
   .carousel-caption h3 {
     color: #fff !important;
   }
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-  }
+ 
   .bg-1 {
     background: #2d2d30;
     color: #bdbdbd;
@@ -137,4 +132,37 @@ body {
   }
   textarea {
     resize: none;
+  }
+  
+  .fa {
+    font-size: 100px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fab {
+    font-size: 100px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+    .container{
+      padding: 40px 60px;
+    }
+    .fa {
+      padding: 20px;
+      font-size: 70px;
+      width: 70px;
+    } 
+    .fab {
+      padding: 20px;
+      font-size: 70px;
+      width: 70px;
+    }
   }
